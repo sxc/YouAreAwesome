@@ -15,12 +15,16 @@ struct ContentView: View {
                 .scaledToFit()
                 .imageScale(.large)
                 .foregroundColor(.orange)
-                .padding(.horizontal)
+                .padding(.horizontal, 30.0)
+                .padding(.bottom, 100)
+                .background(.blue)
             Text("You Are Awesome!")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
                 .foregroundColor(Color.red)
                 .italic()
+                .background(.yellow)
+                .padding()
             
             
                 
